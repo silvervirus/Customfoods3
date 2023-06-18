@@ -65,7 +65,8 @@ namespace CustomFoods_3.FastFood
 
             // Add a recipe for our item, as well as add it to the Moonpool fabricator and Seamoth modules tab
             Peeperburger.SetRecipe(recipe);
-            CraftTreeHandler.AddCraftingNode(Fabricator.CustomfoodsFabricator.CraftTreeType, Peeperburger.Info.TechType,"FastFood");
+            .WithFabricatorType(Fabricator.CustomfoodsFabricator.CraftTreeType)
+            .WithStepsToFabricatorTab("FastFood");
         
 
 
