@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFoods3", "CustomFoods3\CustomFoods3.csproj", "{74B45A84-86E5-478B-9799-767C62782C4B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RamuneLib", "..\..\..\Desktop\SubnauticaPlugins-Nautilus-main\RamuneLib\RamuneLib.shproj", "{614655D4-29A8-4588-A4F5-2B0D618BC996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B45A84-86E5-478B-9799-767C62782C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B45A84-86E5-478B-9799-767C62782C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B45A84-86E5-478B-9799-767C62782C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B45A84-86E5-478B-9799-767C62782C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51FF0B6C-8F32-49C6-8E20-2F78B862785C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Desktop\SubnauticaPlugins-Nautilus-main\RamuneLib\RamuneLib.projitems*{614655d4-29a8-4588-a4f5-2b0d618bc996}*SharedItemsImports = 13
+		..\..\..\Desktop\SubnauticaPlugins-Nautilus-main\RamuneLib\RamuneLib.projitems*{74b45a84-86e5-478b-9799-767c62782c4b}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
